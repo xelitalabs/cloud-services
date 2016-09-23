@@ -3,7 +3,7 @@ docker_build () {
     echo "building "$1
     build_dir=$current_dir"/"$1
     echo $1" dir is:" $build_dir
-    cd $build_dir && mvn docker:build
+    cd $build_dir && mvn -X docker:build -DpushImage
 }
 
 docker_build_all () {
