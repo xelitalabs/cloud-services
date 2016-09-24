@@ -40,7 +40,7 @@ docker-compose up
 
 ### With Maven
 
-Once the application has been started using java command, you can test it by clicking [this link](http://localhost:9191)
+Once the application has been started using java command, you can test it by clicking [this link](http://localhost:9999)
 
 ### With Docker
 

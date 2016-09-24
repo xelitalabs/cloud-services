@@ -8,5 +8,5 @@ RUN chmod +x /app.jar
 ADD docker_wait.sh /docker_wait.sh
 RUN chmod +x /docker_wait.sh
 
-EXPOSE 9191
+EXPOSE 9999
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
